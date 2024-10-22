@@ -1,0 +1,52 @@
+.bloghr {
+    border: 2px solid #f9a101;
+    opacity: 1;
+}
+
+.hoverme:hover {
+    box-shadow: 0px 0px 5px #6dc5b7;
+    background-color: #6dc5b7 !important;
+}
+
+.hoverme:hover div {
+    filter: brightness(0)invert(1) !important;
+    color: #fff !important;
+}
+
+.hoverme:hover img {
+    filter: brightness(0)invert(1) !important;
+}
+
+.raleway {
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.contents {
+    font-family: 'Omnes', sans-serif;
+}
+.removebale{
+    border-right: .2px solid rgb(0, 0, 0, 0.2);
+}
+.remov{
+    border-right: .2px dotted rgb(255, 255, 255);
+}
+
+/* carousel indicators */
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+ /* Media Quary */
+ @media (max-width: 767px) {
+    .removebale {
+        border: 0px !important;
+    }
+    .remov{
+        border-right: 0px !important;
+        border-bottom: .2px dotted white;
+    }
+}
